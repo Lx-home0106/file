@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>入居申込書</title>
+</head>
+<body>
+
+<h2>入居申込書ダウンロード</h2>
+
+<p><a href="入居申込書（個人）.pdf" target="_blank">個人用はこちら</a></p>
+<p><a href="入居申込書（法人）.pdf" target="_blank">法人用はこちら</a></p>
+
+</body>
+</html>
