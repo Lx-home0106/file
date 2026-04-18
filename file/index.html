@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>入居申込書</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>入居申込書ダウンロード</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.button {
+  display: block;
+  padding: 18px;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.kojin {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+}
+
+.hojin {
+  background: linear-gradient(135deg, #10b981, #22c55e);
+}
+
+.button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+</style>
 </head>
+
 <body>
 
-<h2>入居申込書ダウンロード</h2>
+<div class="container">
 
-<p><a href="入居申込書（個人）.pdf" target="_blank">個人用はこちら</a></p>
-<p><a href="入居申込書（法人）.pdf" target="_blank">法人用はこちら</a></p>
+<h1>入居申込書ダウンロード</h1>
+
+<a href="入居申込書（個人）.pdf" target="_blank" class="button kojin">
+  個人用はこちら
+</a>
+
+<a href="入居申込書（法人）.pdf" target="_blank" class="button hojin">
+  法人用はこちら
+</a>
+
+<div class="footer">
+  © Lx-home
+</div>
+
+</div>
 
 </body>
 </html>
